@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+
+.cookie-regular {
+  font-family: "Cookie", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+  
+}
+
+
+/* Estilo base para las cards */
+.card {
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto de hover para las cards */
+.hover-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Centrando las imágenes y ajustando el tamaño */
+.card-img-top {
+    border-radius: 100%;
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+/* Título de la card */
+.card-title {
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+/* Texto de la card */
+.card-text {
+    font-size: 18px;
+    color: #6c757d;
+    margin-top: 10px;
+}
+
+
+
+
+/* Estilo de las tarjetas con sombra y hover para comentarios de usuarios*/
+.card-usuarios {
+border: none;
+transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.card-usuarios:hover {
+    transform: scale(1.05);
+   
+  }
+
+  /* Ajustes de la imagen */
+  .card-usuarios img {
+    border: 3px solid #fff;
+    box-shadow: 4px rgba(0, 0, 0, 0.0);
+  }
+
+  /* Espaciado y alineación del texto */
+  .card-body p {
+    font-style: italic;
+    color: #fff;
+  }
+
+  .card-usuarios-title {
+    font-weight: bold;
+    color: #fff;
+    margin-top: 15px;
+  }
+
+  /* Efectos generales */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(1);
+  }
+
+
+  .navbar-nav .nav-item {
+    margin-right: 20px; /* Separación horizontal entre los items */
+}
+
+.navbar-nav .nav-link {
+    padding: 10px 15px; 
+    font-size: 18px; 
+    color: #0a5d91; 
+    transition: color 0.3s ease; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #07b2dd; 
+    text-decoration: underline; 
+}
+
+.navbar-nav .nav-link.active {
+    color: #05948d; 
+    text-decoration: underline;
+}
+.nosotros{
+    background-color: #0a5d91;
+}
+.imagen_nosotros{
+    background-color: #0a5d91;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.testimonio_us{
+    background-color: #0a5d91;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.footer{
+  background: #0a5d91;
+}
+.icon{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
